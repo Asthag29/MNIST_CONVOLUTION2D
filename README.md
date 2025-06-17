@@ -61,9 +61,8 @@ Training and evaluation progress are visualized in the following plots:
 
 This plot shows:
 
-- Training Loss vs Epochs  
-- Testing Loss vs Epochs  
-- Accuracy vs Epochs  
+- Training Loss vs Testing Loss   
+- Training Accuracy vs Testing Accuracy 
 
 **Purpose:**
 
@@ -76,12 +75,7 @@ This plot shows:
 
 This plot shows:
 
-- Number of misclassified samples in each test batch  
-
-**Purpose:**
-
-- Identify batches where the model struggles  
-- Understand the distribution of prediction errors  
+- misclassified samples in test batch    
 
 ---
 
