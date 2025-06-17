@@ -1,4 +1,3 @@
-# MNIST_FASHION_CLASSIFICATION
 # 🧠 MNIST Digit Classification using CNN
 
 This project implements a Convolutional Neural Network (CNN) for classifying handwritten digits from the MNIST dataset. It uses **PyTorch** for training and **Typer** for command-line interaction. The model tracks performance metrics and provides visualizations for loss, accuracy, and misclassifications.
@@ -52,4 +51,45 @@ This project uses **Typer** to provide CLI options for training configuration.
 ### ✅ Example Usage
 
 ```bash
-python train.py --epochs 30 --lr 0.005
+python3 main.py --epochs 30 --lr 0.005
+
+## 📊 Visualizations
+
+Training and evaluation progress are visualized in the following plots:
+
+### 📈 `graph.png` — Loss & Accuracy Over Epochs
+
+This plot shows:
+
+- Training Loss vs Epochs  
+- Testing Loss vs Epochs  
+- Accuracy vs Epochs  
+
+**Purpose:**
+
+- Visualize model convergence  
+- Detect overfitting or underfitting  
+
+---
+
+### 🧾 `graph2.png` — Misclassifications vs Batch Number
+
+This plot shows:
+
+- Number of misclassified samples in each test batch  
+
+**Purpose:**
+
+- Identify batches where the model struggles  
+- Understand the distribution of prediction errors  
+
+---
+
+## 💾 Output Files
+
+| File         | Description                                  |
+|--------------|----------------------------------------------|
+| `model.pth`  | Trained model weights (saved after training) |
+| `graph.png`  | Loss and accuracy visualization              |
+| `graph2.png` | Misclassification analysis                   |
+
