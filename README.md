@@ -50,7 +50,7 @@ This project uses **Typer** to provide CLI options for training configuration.
 
 ### ✅ Example Usage
 
-```bash
+```bash```
 python3 main.py --epochs 30 --lr 0.005
 
 ## 📊 Visualizations
